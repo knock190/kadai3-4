@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="3-4style.css">
+</head>
+<body>
+<h1>TODOリスト</h1>
+
+<p class="radio">
+    <input type="radio" name="button_radio" value="all" checked= "checked">すべて
+    <input type="radio" name="button_radio" value="work">作業中
+    <input type="radio" name="button_radio" value="finish">完了
+</p>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>コメント</th>
+        <th>状態</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="list"></tbody>
+  </table>
+  <h2>新規タスクの追加</h2>
+  <input type="text" id="newtask">
+  <button type="submit" id="add">追加</button>
+
+  
+  <script src="3-4main.js"></script>
+</body>
+</html>
