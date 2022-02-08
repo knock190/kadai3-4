@@ -1,0 +1,32 @@
+.radio {
+    display: flex;
+  }
+  
+  .radio li {
+    list-style: none;
+    margin-right: 15px;
+  }
+  
+  button {
+    background-color: whitesmoke;
+    padding: 5px 15px;
+  }
+  
+  .wrap {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  .divoneli {
+    margin-right: 50px;
+    list-style: none;
+  }
+  
+  .btntwo {
+    margin-right: 20px;
+  }
+  
+  .none {
+    display: none;
+  }
+  
